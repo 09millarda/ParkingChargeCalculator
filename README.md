@@ -8,7 +8,7 @@ If you wish to change the file then just update the "FilePath" const in Calculat
 
 | CsvIndex | Key         | Format                | Description                                                       |
 |----------|-------------|-----------------------|-------------------------------------------------------------------|
-| 0        | ChargeType  | ShortState | LongStay | The ChargeType of the scenario                                    |
+| 0        | ChargeType  | ShortStay \| LongStay | The ChargeType of the scenario                                    |
 | 1        | ChargeStart | yyyy-MM-ddThh:mm:ss   | The start DateTime of the parking period                          |
 | 2        | ChargeEnd   | yyyy-MM-ddThh:mm:ss   | The end DateTime of the parking period (ChargeEnd >= ChargeStart) |
 
